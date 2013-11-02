@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resource-redirections>
+    <item name="drawable/btn_camera_shutter_pressed_holo">@drawable/com_android_camera_btn_camera_shutter_pressed_holo</item>
+    <item name="drawable/btn_camera_shutter_holo">@drawable/com_android_camera_btn_camera_shutter_holo</item>
+    <item name="drawable/btn_video_shutter_recording_pressed_holo">@drawable/com_android_camera_btn_video_shutter_recording_pressed_holo</item>
+    <item name="drawable/btn_video_shutter_holo">@drawable/com_android_camera_btn_video_shutter_holo</item>
+    <item name="drawable/btn_video_shutter_pressed_holo">@drawable/com_android_camera_btn_video_shutter_pressed_holo</item>
+    <item name="drawable/btn_video_shutter_recording_holo">@drawable/com_android_camera_btn_video_shutter_recording_holo</item>
+    <item name="drawable/btn_pan_shutter_pressed_holo">@drawable/com_android_camera_btn_pan_shutter_pressed_holo</item>
+    <item name="drawable/btn_pan_shutter_holo">@drawable/com_android_camera_btn_pan_shutter_holo</item>
+    <item name="drawable/btn_pan_shutter_recording_pressed_holo">@drawable/com_android_camera_btn_pan_shutter_recording_pressed_holo</item>
+    <item name="drawable/btn_pan_shutter_recording_holo">@drawable/com_android_camera_btn_pan_shutter_recording_holo</item>
+    <item name="drawable/ic_settings_holo_light">@drawable/com_android_camera_ic_settings_holo_light</item>
+    <item name="drawable/bg_camera_pattern">@drawable/com_android_bg_camera_pattern</item>
+    <item name="drawable/bg_switcher">@drawable/com_android_bg_switcher</item>
+    <item name="drawable/ic_menu_divider">@drawable/com_android_ic_menu_divider</item>
+    <item name="mipmap/ic_launcher_camera">@mipmap/ic_launcher_camera</item>
+    <item name="mipmap/ic_launcher_gallery">@mipmap/ic_launcher_gallery</item>
+</resource-redirections>

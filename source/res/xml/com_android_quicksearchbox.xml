@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resource-redirections>
+    <item name="drawable/context_header_bg_dawn">@drawable/com_google_android_context_header_bg_dawn</item>
+    <item name="drawable/context_header_bg_daylight">@drawable/com_google_android_context_header_bg_daylight</item>
+    <item name="drawable/context_header_bg_dusk">@drawable/com_google_android_context_header_bg_dusk</item>
+    <item name="drawable/context_header_bg_twilight">@drawable/com_google_android_context_header_bg_twilight</item>
+    <item name="drawable/vs_micbtn_on">@drawable/com_google_android_vs_micbtn_on</item>
+    <item name="drawable/vs_micbtn_rec">@drawable/com_google_android_vs_micbtn_rec</item>
+    <item name="drawable/highlighted_marker_b">@drawable/com_google_android_highlighted_marker_b</item>
+    <item name="drawable/highlighted_marker_blank">@drawable/com_google_android_highlighted_marker_blank</item>
+    <item name="drawable/marker_b">@drawable/com_google_android_marker_b</item>
+    <item name="drawable/marker_blank">@drawable/com_google_android_marker_blank</item>
+    <item name="drawable/marker_d">@drawable/com_google_android_marker_d</item>
+</resource-redirections>

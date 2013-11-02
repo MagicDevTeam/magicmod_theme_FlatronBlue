@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resource-redirections>
+    <item name="drawable/appwidget_clock_dial">@drawable/com_android_deskclock_appwidget_clock_dial</item>
+    <item name="drawable/appwidget_clock_hour">@drawable/com_android_deskclock_appwidget_clock_hour</item>
+    <item name="drawable/appwidget_clock_minute">@drawable/com_android_deskclock_appwidget_clock_minute</item>
+    <item name="drawable/appwidget_clock_second">@drawable/com_android_deskclock_appwidget_clock_second</item>
+    <item name="drawable/clock_analog_dial">@drawable/com_android_deskclock_clock_analog_dial</item>
+    <item name="drawable/clock_analog_hour">@drawable/com_android_deskclock_clock_analog_hour</item>
+    <item name="drawable/clock_analog_minute">@drawable/com_android_deskclock_clock_analog_minute</item>
+    <item name="drawable/clock_analog_second">@drawable/com_android_deskclock_clock_analog_second</item>
+    <item name="drawable/ic_tab_clock">@drawable/com_android_deskclock_ic_tab_clock</item>
+    <item name="drawable/ic_tab_clock_activated">@drawable/com_android_deskclock_ic_tab_clock_activated</item>
+    <item name="drawable/ic_tab_stopwatch">@drawable/com_android_deskclock_ic_tab_stopwatch</item>
+    <item name="drawable/ic_tab_stopwatch_activated">@drawable/com_android_deskclock_ic_tab_stopwatch_activated</item>
+    <item name="drawable/ic_tab_timer">@drawable/com_android_deskclock_ic_tab_timer</item>
+    <item name="drawable/ic_tab_timer_activated">@drawable/com_android_deskclock_ic_tab_timer_activated</item>
+</resource-redirections>

@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="FlatronBlue" parent="@*android:style/Theme" />
+    <style name="TextAppearance.StatusBar.Title" parent="@*android:style/TextAppearance.StatusBar.EventContent.Time">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="Theme" parent="@*android:style/Theme">
+        <item name="android:colorBackground">@*android:color/transparent</item>
+        <item name="android:windowBackground">@drawable/frameworks_res_background_holo_dark</item>
+    </style>
+    <style name="TextAppearance.StatusBar.IntruderAlert" parent="@*android:style/TextAppearance.StatusBar.EventContent.Time" />
+    <style name="TextAppearance.StatusBar.SystemPanel" parent="@*android:style/TextAppearance.StatusBar.EventContent.Time">
+        <item name="android:textAppearance">?android:textAppearance</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="TextAppearance.StatusBar.TextButton" parent="@*android:style/TextAppearance.StatusBar.EventContent.Time">
+        <item name="android:textAppearance">?android:textAppearance</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="TextAppearance.StatusBar.Battery" parent="@*android:style/TextAppearance.StatusBar.Icon">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="TextAppearance.StatusBar.BatteryTextOnly" parent="@*android:style/TextAppearance.StatusBar.Icon">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="TextAppearance.StatusBar.Clock" parent="@*android:style/TextAppearance.StatusBar.Icon">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="TextAppearance.StatusBar.Date" parent="@*android:style/TextAppearance.StatusBar.Icon">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="TextAppearance.Holo.Widget.Switch" parent="@*android:style/TextAppearance.Holo.Small">
+        <item name="android:textColor">#00000000</item>
+    </style>
+    <style name="TextAppearance.Holo.DialogWindowTitle" parent="@*android:style/TextAppearance.Holo">
+        <item name="android:textSize">22.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="DialtactsTheme1" parent="@*android:style/Theme.Holo">
+        <item name="android:textColorSecondary">@color/secondary_text_color</item>
+        <item name="android:windowBackground">@drawable/background</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:listViewStyle">@style/ListViewStyle</item>
+        <item name="android:actionBarStyle">@style/DialtactsActionBarStyle</item>
+        <item name="android:windowActionBarOverlay">true</item>
+    </style>
+    <style name="DialtactsDialpadButtonStyle">
+        <item name="android:background">@drawable/com_android_contacts_btn_dial</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">2.0</item>
+        <item name="android:soundEffectsEnabled">false</item>
+    </style>
+    <style name="CallDetailActivityTheme1" parent="@*android:style/Theme.Holo">
+        <item name="android:windowBackground">@drawable/background</item>
+        <item name="android:listViewStyle">@style/ListViewStyle</item>
+        <item name="android:gravity">top</item>
+    </style>
+    <style name="DetailActivityTheme" parent="@*android:style/Theme.Holo">
+        <item name="android:textColorPrimary">@color/primary_text_color</item>
+        <item name="android:textColorSecondary">@color/secondary_text_color</item>
+        <item name="android:windowBackground">@drawable/background</item>
+        <item name="android:listViewStyle">@style/ListViewStyle</item>
+        <item name="android:actionBarStyle">@style/ContactsActionBarStyle</item>
+        <item name="android:actionBarWidgetTheme">@style/ContactsActionBarTheme</item>
+        <item name="android:actionBarItemBackground">@drawable/com_android_contacts_action_bar_item_background</item>
+    </style>
+    <style name="EditorActivityTheme" parent="@*android:style/Theme.Holo">
+        <item name="android:textColorPrimary">@color/primary_text_color</item>
+        <item name="android:textColorSecondary">@color/secondary_text_color</item>
+        <item name="android:windowBackground">@drawable/background</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:listViewStyle">@style/ListViewStyle</item>
+        <item name="android:actionBarStyle">@style/ContactsActionBarStyle</item>
+        <item name="android:actionBarWidgetTheme">@style/ContactsActionBarTheme</item>
+        <item name="android:actionBarItemBackground">@drawable/com_android_contacts_action_bar_item_background</item>
+    </style>
+    <style name="BackgroundOnlyTheme" parent="@*android:style/Theme.Holo">
+        <item name="android:windowBackground">@drawable/background</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowNoDisplay">true</item>
+    </style>
+    <style name="Theme.QuickContact" parent="@*android:style/Theme.Holo">
+        <item name="android:windowBackground">@drawable/background</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:listViewStyle">@style/ListViewStyle</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+    <style name="PeopleTheme1" parent="@*android:style/Theme.Holo">
+        <item name="android:textColorPrimary">@color/primary_text_color</item>
+        <item name="android:textColorSecondary">@color/secondary_text_color</item>
+        <item name="android:windowBackground">@drawable/background</item>
+        <item name="android:listViewStyle">@style/ListViewStyle</item>
+        <item name="android:actionBarStyle">@style/ContactsActionBarStyle</item>
+        <item name="android:actionDropDownStyle">@style/ContactsActionBarDropDownStyle</item>
+        <item name="android:actionBarTabStyle">@style/ContactsActionBarTabView</item>
+        <item name="android:actionBarWidgetTheme">@style/ContactsActionBarTheme</item>
+        <item name="android:actionBarItemBackground">@drawable/com_android_contacts_action_bar_item_background</item>
+    </style>
+    <style name="ContactsActionBarStyle" parent="@*android:style/Widget.Holo.ActionBar">
+        <item name="android:background">@drawable/com_android_contacts_ab_solid_custom_blue_inverse_holo</item>
+        <item name="android:displayOptions"></item>
+        <item name="android:backgroundStacked">@drawable/com_android_contacts_ab_solid_custom_blue_inverse_holo</item>
+    </style>
+    <style name="ContactsActionBarDropDownStyle" parent="@*android:style/Widget.Holo.Spinner">
+        <item name="android:background">@drawable/com_android_contacts_ab_dropdown_navigation_item_background</item>
+    </style>
+    <style name="ContactsActionBarTheme" parent="@*android:style/Theme.Holo">
+        <item name="android:windowBackground">@drawable/background</item>
+        <item name="android:dropDownListViewStyle">@style/ListViewDropdownStyle</item>
+        <item name="android:textColor">@color/con_white_text</item>
+        <item name="android:popupMenuStyle">@*android:style/Widget.Holo.PopupMenu</item>
+    </style>
+    <style name="ContactsActionBarTabView" parent="@*android:style/Widget.Holo.ActionBar.TabView">
+        <item name="android:background">@drawable/com_android_contacts_action_bar_tab</item>
+    </style>
+    <style name="ListViewDropdownStyle" parent="@*android:style/Widget.ListView.DropDown">
+        <item name="android:listSelector">?android:listChoiceBackgroundIndicator</item>
+    </style>
+    <style name="ListViewStyle" parent="@*android:style/Widget.Holo.ListView">
+        <item name="android:overScrollMode">always</item>
+    </style>
+    <style name="ContactsPreferencesTheme" parent="@*android:style/Theme.Holo">
+        <item name="android:windowBackground">@drawable/background</item>
+        <item name="android:listViewStyle">@style/ListViewStyle</item>
+    </style>
+    <style name="ContactListFilterTheme" parent="@*android:style/Theme.Holo">
+        <item name="android:windowBackground">@drawable/background</item>
+        <item name="android:listViewStyle">@style/ListViewStyle</item>
+    </style>
+    <style name="CustomContactListFilterView" parent="@style/ContactListFilterTheme">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="NonPhoneActivityTheme" parent="@*android:style/Theme.Holo">
+        <item name="android:windowBackground">@drawable/background</item>
+    </style>
+    <style name="NonPhoneDialogTheme" parent="@*android:style/Theme.Holo">
+        <item name="android:windowBackground">@drawable/background</item>
+    </style>
+    <style name="ConfirmAddDetailDialogTheme" parent="@*android:style/Theme.Holo.Dialog.MinWidth">
+        <item name="android:windowCloseOnTouchOutside">true</item>
+    </style>
+    <style name="ContactEditorAccountsChangedActivityTheme" parent="@*android:style/Theme.Holo.Dialog.NoActionBar.MinWidth">
+        <item name="android:textColorPrimary">@color/primary_text_color</item>
+        <item name="android:textColorSecondary">@color/secondary_text_color</item>
+        <item name="android:listViewStyle">@style/ListViewStyle</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+    </style>
+    <style name="DialtactsActionBarStyle" parent="@*android:style/Widget.Holo.ActionBar">
+        <item name="android:displayOptions"></item>
+        <item name="android:backgroundStacked">@drawable/com_android_contacts_ab_stacked_opaque_dark_holo</item>
+        <item name="android:backgroundSplit">@null</item>
+    </style>
+    <style name="QuickContactListBottomStyle">
+        <item name="android:background">@color/con_quickcontact_tab_indicator</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">2.0dip</item>
+    </style>
+    <style name="Theme.PhotoSelector" parent="@*android:style/Theme.Holo">
+        <item name="android:windowBackground">@drawable/background</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="ContactListSeparatorTextViewStyle">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/con_people_app_theme_color</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@drawable/com_android_contacts_list_section_divider_holo_custom</item>
+        <item name="android:paddingLeft">8.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">@dimen/list_section_divider_min_height</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="PeopleNavigationDropDownTextAppearance">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="PeopleNavigationDropDownHeaderTextAppearance">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">#cdffffff</item>
+    </style>
+    <style name="MmsHoloTheme" parent="@*android:style/Theme.Holo">
+        <item name="android:windowBackground">@drawable/background</item>
+    </style>
+    <style name="com_android_mms_WidgetTitle" parent="@*android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="com_android_mms_NotificationPrimaryText">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="com_android_mms_NotificationSecondaryText">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="com_android_mms_NotificationSubjectText">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="ComposeFieldLayout" parent="@*android:style/Widget.Holo.EditText">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:focusable">false</item>
+        <item name="android:focusableInTouchMode">false</item>
+        <item name="android:clickable">true</item>
+        <item name="android:addStatesFromChildren">true</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">48.0dip</item>
+    </style>
+    <style name="ComposeButton">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff999999</item>
+        <item name="android:background">#ff000000</item>
+        <item name="android:padding">0.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="AttachmentName">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textColor">#ffcccccc</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">8.0dip</item>
+        <item name="android:layout_marginRight">32.0dip</item>
+        <item name="android:maxLines">1</item>
+    </style>
+    <style name="AttachmentSize" parent="@style/AttachmentName">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">#ff555555</item>
+    </style>
+    <style name="ConversationListFade" parent="@*android:style/Widget.Holo.ListView">
+        <item name="android:cacheColorHint">#ff222222</item>
+        <item name="android:divider">#ff222222</item>
+        <item name="android:dividerHeight">0.0dip</item>
+    </style>
+    <style name="MinTimeAnimationStyle" parent="@*android:style/DialogWindowTitle.Holo.Light">
+        <item name="android:windowEnterAnimation">@anim/dialog_enter</item>
+        <item name="android:windowExitAnimation">@anim/dialog_exit</item>
+    </style>
+    <style name="MinTimeProgressViewStyle" parent="@*android:style/Widget.Holo.ProgressBar" />
+    <style name="MinTimeProgressDialogStyle" parent="@*android:style/Theme.Holo.Dialog">
+        <item name="android:windowBackground">@color/black</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@style/MinTimeAnimationStyle</item>
+    </style>
+    <style name="WidgetSubtitle" parent="@*android:style/TextAppearance.Holo.Widget.ActionBar.Subtitle.Inverse">
+        <item name="android:textColor">#ff999999</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="ShortcutWidgetTheme" parent="@*android:style/Theme.Holo.DialogWhenLarge" />
+    <style name="PlainSpinnerDropdown" parent="@*android:style/Widget.Holo.Spinner">
+        <item name="android:background">@null</item>
+    </style>
+    <style name="PlainActionBarStyle" parent="@*android:style/Widget.Holo.ActionBar.Solid">
+        <item name="android:displayOptions"></item>
+    </style>
+    <style name="ListViewWhiteCustom" parent="@*android:style/Widget.Holo.ListView" />
+    <style name="UnifiedEmailTheme" parent="@*android:style/Theme.Holo">
+        <item name="android:listViewWhiteStyle">@*android:style/Widget.Holo.ListView</item>
+        <item name="android:actionDropDownStyle">@style/PlainSpinnerDropdown</item>
+    </style>
+    <style name="LightNoTitleBarTheme" parent="@*android:style/Theme.Black.NoTitleBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:listViewWhiteStyle">@*android:style/Widget.Holo.ListView</item>
+    </style>
+    <style name="ComposeFieldLinearLayout" parent="@*android:style/Widget.Holo.EditText">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingLeft">0.0dip</item>
+        <item name="android:paddingRight">0.0dip</item>
+        <item name="android:focusable">false</item>
+        <item name="android:focusableInTouchMode">false</item>
+        <item name="android:clickable">true</item>
+        <item name="android:addStatesFromChildren">true</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">48.0dip</item>
+    </style>
+    <style name="PlainEditText" parent="@*android:style/Widget.Holo.EditText">
+        <item name="android:background">#ff000000</item>
+    </style>
+    <style name="ComposeTheme" parent="@*android:style/Theme.Holo" />
+    <style name="EmailInput" parent="@*android:style/Widget.Holo.AutoCompleteTextView">
+        <item name="android:background">@color/black</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">4</item>
+        <item name="android:scrollHorizontally">false</item>
+        <item name="android:inputType">textMultiLine|textEmailAddress</item>
+        <item name="android:privateImeOptions">nm</item>
+        <item name="android:imeOptions">actionNext</item>
+    </style>
+    <style name="MinTimeProgressDialog" parent="@*android:style/Theme.Holo.Dialog">
+        <item name="android:windowBackground">@color/black</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@style/MinTimeAnimationStyle</item>
+    </style>
+    <style name="MinTimeProgressView" parent="@*android:style/Widget.Holo.ProgressBar" />
+    <style name="message_attachment_button_base" parent="@*android:style/Widget.Holo.Button.Borderless">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff999999</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:minHeight">0.0dip</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="WidgetTitle" parent="@*android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="DeskClock" parent="@*android:style/Theme.Holo">
+        <item name="android:windowBackground">@drawable/alarm_c</item>
+        <item name="android:dropDownListViewStyle">@style/DeskClockDropDownListView</item>
+        <item name="android:actionBarStyle">@style/DeskClockBarStyle</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:actionBarTabStyle">@style/DeskClockTabStyle</item>
+        <item name="android:actionBarTabBarStyle">@style/DeskClockTabBarStyle</item>
+        <item name="android:selectableItemBackground">@drawable/item_background</item>
+    </style>
+    <style name="DeskClockDropDownListView" parent="@*android:style/Widget.Holo.ListView.DropDown">
+        <item name="android:listSelector">@drawable/item_background</item>
+    </style>
+    <style name="DeskClockBarStyle" parent="@*android:style/Widget.Holo.ActionBar">
+        <item name="android:background">@drawable/header_bg_bar</item>
+        <item name="android:displayOptions"></item>
+        <item name="android:backgroundStacked">@null</item>
+        <item name="android:backgroundSplit">@null</item>
+    </style>
+    <style name="DeskClockTabStyle" parent="@*android:style/Theme.Holo">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/item_background</item>
+        <item name="android:paddingLeft">@dimen/actionbar_tab_padding</item>
+        <item name="android:paddingRight">@dimen/actionbar_tab_padding</item>
+    </style>
+    <style name="DeskClockTabBarStyle" parent="@*android:style/Theme.Holo">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/header_bg</item>
+        <item name="android:divider">?android:dividerVertical</item>
+        <item name="android:showDividers">middle</item>
+        <item name="android:dividerPadding">12.0dip</item>
+    </style>
+    <style name="AlarmClockTheme" parent="@*android:style/Theme.Holo">
+        <item name="android:windowBackground">@drawable/alarm_c</item>
+        <item name="android:dropDownListViewStyle">@style/DeskClockDropDownListView</item>
+        <item name="android:actionBarStyle">@style/SettingsTheme.ActionBar</item>
+        <item name="android:selectableItemBackground">@drawable/item_background</item>
+    </style>
+    <style name="SettingsTheme.ActionBar" parent="@*android:style/Widget.Holo.ActionBar">
+        <item name="android:background">@drawable/ab_hairline</item>
+        <item name="android:displayOptions">useLogo|showTitle</item>
+        <item name="android:titleTextStyle">@style/SettingsTheme.TextAppearance.ActionBar.Title</item>
+    </style>
+    <style name="SettingsTheme.TextAppearance.ActionBar.Title" parent="@*android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textSize">@dimen/actionbar_title_font_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/clock_red</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="SettingsTheme" parent="@*android:style/Theme">
+        <item name="android:windowBackground">@drawable/alarm_c</item>
+        <item name="android:windowTitleSize">@dimen/action_bar_height</item>
+        <item name="android:windowTitleBackgroundStyle">@style/TransparentTitleBackground</item>
+        <item name="android:dropDownListViewStyle">@style/DeskClockDropDownListView</item>
+        <item name="android:actionBarStyle">@style/SettingsTheme.ActionBar</item>
+        <item name="android:selectableItemBackground">@drawable/item_background</item>
+    </style>
+    <style name="CardDialogTitle">
+        <item name="android:textSize">25.0sp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:background">@null</item>
+        <item name="android:shadowColor">@color/com_google_android_first_run_text_shadow</item>
+        <item name="android:shadowDx">1.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.25</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="CardDialogTheme" parent="@*android:style/Theme.Holo.Dialog">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <style name="EntryItemTitleText" parent="@*android:style/TextAppearance.Holo.Medium">
+        <item name="android:textColor">#ffcccccc</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">1</item>
+    </style>
+    <style name="EntryItemSubText" parent="@*android:style/TextAppearance.Holo.Small">
+        <item name="android:textColor">#ffaaaaaa</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">1</item>
+    </style>
+    <style name="UnconfirmedEntryText" parent="@*android:style/TextAppearance.Holo.Small">
+        <item name="android:textColor">#ffaaaaaa</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="SuggestionText2Appearance" parent="@*android:style/TextAppearance.Small">
+        <item name="android:textColor">@color/com_google_android_secondary_text_suggest</item>
+    </style>
+    <style name="GalleryTheme" parent="@*android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:windowBackground">@color/sblack</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:actionBarStyle">@style/GalleryActionBarStyle</item>
+    </style>
+    <style name="GalleryActionBarStyle" parent="@*android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/com_google_android_actionbar_translucent</item>
+        <item name="android:displayOptions">useLogo|showHome</item>
+        <item name="android:backgroundStacked">@null</item>
+    </style>
+    <style name="TravelModeSpinner" parent="@*android:style/Widget.Holo.Spinner">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">48.0dip</item>
+        <item name="android:divider">@color/com_google_android_light_gray</item>
+        <item name="android:dividerHeight">1.0dip</item>
+    </style>
+    <style name="Theme.TheGoogle" parent="@*android:style/Theme.Holo">
+        <item name="android:windowBackground">@color/com_google_android_activity_background</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+    <style name="Theme.HandsFree" parent="@*android:style/Theme.Holo">
+        <item name="android:windowBackground">@color/sblack</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@*android:style/Animation.Dialog</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+    <style name="Theme.Velvet" parent="@*android:style/Theme.Holo">
+        <item name="android:windowBackground">@color/com_google_android_activity_background</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowSoftInputMode">stateUnchanged|adjustPan</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+    <style name="Theme.Velvet.Card.TextAppearance.Large" parent="@*android:style/TextAppearance.Holo.Large">
+        <item name="android:textSize">48.0dip</item>
+        <item name="android:textColor">@color/com_google_android_dark_gray</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="Theme.Velvet.Card.TextAppearance.Medium" parent="@*android:style/TextAppearance.Holo.Medium">
+        <item name="android:textSize">25.0sp</item>
+        <item name="android:textColor">@color/com_google_android_dark_gray</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="Theme.Velvet.Card.TextAppearance.Small" parent="@*android:style/TextAppearance.Holo.Small">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@color/com_google_android_gray</item>
+    </style>
+    <style name="CorpusBar" parent="@*android:style/Widget.Holo">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingLeft">12.0dip</item>
+        <item name="android:paddingTop">5.0dip</item>
+        <item name="android:paddingBottom">5.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="CorpusSelector" parent="@*android:style/Widget.Holo">
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginLeft">8.0dip</item>
+        <item name="android:layout_marginRight">8.0dip</item>
+    </style>
+    <style name="CorpusIcon" parent="@*android:style/Widget.Holo">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:duplicateParentState">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">5.0dip</item>
+    </style>
+    <style name="CorpusName" parent="@*android:style/Widget.Holo.TextView">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textColor">@color/com_google_android_corpus_selector_text</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:duplicateParentState">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="CorpusInfo" parent="@*android:style/Widget.Holo.TextView">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textColor">@color/com_google_android_primary_text_inverse_disabled</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">5.0dip</item>
+    </style>
+    <style name="SearchPlate.SearchBox" parent="@*android:style/Widget.Holo.EditText">
+        <item name="android:background">@color/transparent</item>
+    </style>
+    <style name="Theme.VoiceSearch" parent="@*android:style/Theme.Holo">
+        <item name="android:windowBackground">@color/com_google_android_translucent_black</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@style/RecognitionAnimation</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+    <style name="ActionBar" parent="@*android:style/Widget.Holo.ActionBar.Solid">
+        <item name="android:divider">@null</item>
+        <item name="android:displayOptions">useLogo|showHome|showTitle</item>
+    </style>
+    <style name="Theme.Slot" parent="@*android:style/Theme.Holo" />
+    <style name="RecognitionAnimation">
+        <item name="android:windowEnterAnimation">@anim/holo_window_in</item>
+        <item name="android:windowExitAnimation">@anim/holo_window_out</item>
+    </style>
+    <style name="Theme.Suggestion" parent="@*android:style/Theme.Black.NoTitleBar">
+        <item name="android:colorBackground">#ff34383c</item>
+        <item name="android:windowBackground">@color/com_google_android_white</item>
+    </style>
+    <style name="correctable_highlight" parent="@*android:style/TextAppearance.Holo">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/com_google_android_correctable_highlight_color</item>
+    </style>
+    <style name="contacts_list_main" parent="@*android:style/TextAppearance.Holo">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">@color/com_google_android_editor_grayed_out_text</item>
+    </style>
+    <style name="contacts_list_highlight" parent="@*android:style/TextAppearance.Holo">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">@color/com_google_android_black</item>
+    </style>
+    <style name="slot_title_main" parent="@*android:style/TextAppearance.Holo">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/com_google_android_black</item>
+    </style>
+    <style name="slot_title_invalid" parent="@*android:style/TextAppearance.Holo">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffcc0000</item>
+    </style>
+    <style name="disambig_dialog_content">
+        <item name="android:background">#ff34383c</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.0dip</item>
+        <item name="android:layout_margin">16.0dip</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="square_button">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:background">@drawable/com_google_android_stateful_colored_background</item>
+    </style>
+    <style name="answer_primary_text" parent="@*android:style/TextAppearance.Holo">
+        <item name="android:textSize">25.0dip</item>
+        <item name="android:textColor">@color/com_google_android_dark_gray</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="answer_sources_text" parent="@*android:style/TextAppearance.Holo">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textColor">@color/com_google_android_card_link_text</item>
+        <item name="android:gravity">left|center</item>
+        <item name="android:paddingLeft">8.0dip</item>
+        <item name="android:paddingRight">8.0dip</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="snippet_domain_text" parent="@*android:style/TextAppearance.Holo">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textColor">@color/com_google_android_primary_text_nav_suggest</item>
+    </style>
+    <style name="snippet_source_text" parent="@*android:style/TextAppearance.Holo">
+        <item name="android:textSize">12.0dip</item>
+        <item name="android:textColor">@color/com_google_android_dark_gray</item>
+    </style>
+    <style name="local_marker_text" parent="@*android:style/TextAppearance.Holo">
+        <item name="android:textSize">44.0dip</item>
+        <item name="android:textColor">@color/com_google_android_local_results_red</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/com_google_android_stateful_colored_background_light</item>
+        <item name="android:paddingLeft">12.0dip</item>
+        <item name="android:paddingRight">12.0dip</item>
+        <item name="android:layout_width">52.0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="local_link_text" parent="@*android:style/TextAppearance.Holo">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textColor">@color/com_google_android_card_link_text</item>
+    </style>
+    <style name="local_primary_text" parent="@*android:style/TextAppearance.Holo">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textColor">@color/com_google_android_dark_gray</item>
+    </style>
+    <style name="local_secondary_text" parent="@*android:style/TextAppearance.Holo">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textColor">@color/com_google_android_medium_gray</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="main_text">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">#ffaaaaaa</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="Theme.Recording" parent="@*android:style/Theme.Black.NoTitleBar">
+        <item name="android:colorBackground">#ffef4444</item>
+        <item name="android:textSize">32.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="text_recognized" parent="@*android:style/TextAppearance.Holo.Large.Inverse">
+        <item name="android:textSize">24.0sp</item>
+        <item name="android:textColor">@color/com_google_android_white</item>
+    </style>
+    <style name="Theme.Voice" parent="@*android:style/Theme.Holo">
+        <item name="android:textSize">32.0dip</item>
+        <item name="android:textColor">@color/com_google_android_voice_text_color</item>
+        <item name="android:background">@color/com_google_android_voice_background_color</item>
+    </style>
+    <style name="WidgetCard">
+        <item name="android:background">@drawable/frameworks_card_background</item>
+        <item name="android:padding">@dimen/widget_tile_padding</item>
+    </style>
+    <style name="common.Activity.Light" parent="@*android:style/Theme.Holo">
+        <item name="android:windowBackground">@drawable/background</item>
+    </style>
+    <style name="common.Activity.Light.Dialog" parent="@*android:style/Theme.Holo">
+        <item name="android:windowBackground">@drawable/background</item>
+    </style>
+    <style name="PlayPopupSelectorAnimation" parent="@*android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/popup_selector_open</item>
+        <item name="android:windowExitAnimation">@anim/popup_selector_close</item>
+    </style>
+    <style name="PlayPopupSelector" parent="@*android:style/Theme.NoTitleBar">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@style/PlayPopupSelectorAnimation</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowSoftInputMode">stateUnchanged|adjustResize</item>
+    </style>
+    <style name="InstrumentTheme" parent="@*android:style/Theme.NoTitleBar" />
+    <style name="TextAppearance" parent="@*android:style/TextAppearance.Inverse" />
+    <style name="TextAppearance.EditEvent_Spinner" parent="@*android:style/Widget.Holo.Spinner">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">#ffcccccc</item>
+        <item name="android:layout_marginLeft">12.0dip</item>
+        <item name="android:layout_marginRight">12.0dip</item>
+    </style>
+    <style name="TransparentTitleBackground">
+        <item name="android:background">@drawable/frameworks_res_background_holo_light</item>
+    </style>
+</resources>

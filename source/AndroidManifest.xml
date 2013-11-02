@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:hasCode="false" android:versionCode="3" android:versionName="1.2" package="com.vicino.theme.FlatronBlue"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:pluto="http://www.w3.org/2001/pluto.html">
+    <application android:label="@string/theme_name_FlatronBlue" android:icon="@drawable/icon" android:hasCode="false" name="flat" />
+    <uses-feature android:name="com.tmobile.software.themes" />
+    <theme pluto:themeId="FlatronBlue" pluto:styleId="@style/FlatronBlue" pluto:name="@string/theme_name_FlatronBlue" pluto:preview="@drawable/preview" pluto:author="@string/author" pluto:copyright="@string/copyright" pluto:wallpaperImage="@drawable/frameworks_res_default_wallpaper" pluto:styleName="@string/style_appearance_name">
+        <meta-data android:name="com.tmobile.theme.redirections" android:resource="@xml/redirections" />
+    </theme>
+</manifest>

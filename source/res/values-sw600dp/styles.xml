@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TextAppearance.StatusBar.Expanded" parent="@*android:style/TextAppearance.StatusBar.EventContent.Time" />
+    <style name="TextAppearance.StatusBar.Expanded.Clock" parent="@style/TextAppearance.StatusBar.Expanded">
+        <item name="android:textSize">32.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="TextAppearance.StatusBar.Expanded.Date" parent="@style/TextAppearance.StatusBar.Expanded">
+        <item name="android:textSize">12.0dip</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="TextAppearance.SystemBar.Clock" parent="@*android:style/TextAppearance.StatusBar.Icon">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ff0faeea</item>
+    </style>
+    <style name="TextAppearance.SystemBar.Expanded.Clock" parent="@style/TextAppearance.StatusBar.Expanded.Clock">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="TextAppearance.SystemBar.Expanded.Date" parent="@style/TextAppearance.StatusBar.Expanded.Date">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+</resources>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ChaOS_Theme_Values>
+    <color name="holo_blue_light">#ff7dafbd</color>
+    <color name="holo_blue_dark">#ff7dafbd</color>
+    <color name="holo_green_light">#ff99cc00</color>
+    <color name="holo_green_dark">#ff669900</color>
+    <color name="holo_red_light">#ff7dafbd</color>
+    <color name="holo_red_dark">#ffcc0000</color>
+    <color name="holo_orange_light">#ffffbb33</color>
+    <color name="holo_orange_dark">#ffff8800</color>
+    <color name="holo_purple">#ffaa66cc</color>
+    <color name="holo_blue_bright">#ff00ddff</color>
+    <color name="dim_foreground_dark">#ffbebebe</color>
+    <color name="dim_foreground_dark_inverse">#ff323232</color>
+    <color name="hint_foreground_dark">#ff808080</color>
+    <color name="dim_foreground_light">#ff323232</color>
+    <color name="dim_foreground_light_inverse">#ffbebebe</color>
+    <color name="hint_foreground_light">#ff808080</color>
+    <color name="highlighted_text_dark">#9983cc39</color>
+    <color name="highlighted_text_light">#9983cc39</color>
+    <color name="link_text_dark">#ff5c5cff</color>
+    <color name="link_text_light">#ff0000ee</color>
+    <color name="suggestion_highlight_text">#ff0094ff</color>
+    
+    <!-- For settings framework -->
+    <color name="lighter_gray">#ffdddddd</color>
+    <color name="darker_gray">#ffaaaaaa</color>
+    
+ <!-- For security permissions -->
+        <color name="perms_dangerous_grp_color">#ff7dafbd</color>
+    <color name="perms_dangerous_perm_color">#ff7dafbd</color>
+    
+ <!-- For search-related UIs -->
+       <item name="search_url_text_selected" type="color">@color/black</item>
+    <item name="search_url_text_pressed" type="color">@color/black</item>
+    <item name="search_widget_corpus_item_background" type="color">@color/lighter_gray</item>
+
+<!-- SlidingTab -->
+    <item name="sliding_tab_text_color_active" type="color">@color/black</item>
+    <item name="sliding_tab_text_color_shadow" type="color">@color/black</item>
+    
+  <!-- keyguard tab -->
+    <color name="keyguard_text_color_normal">#ffffffff</color>
+    <color name="keyguard_text_color_unlock">#ffa7d84c</color>
+    <color name="keyguard_text_color_soundoff">#ffffffff</color>
+    <color name="keyguard_text_color_soundon">#ffe69310</color>
+    <color name="keyguard_text_color_decline">#fffe0a5a</color>
+
+  <!-- FaceLock -->s
+    <color name="facelock_spotlight_mask">#cc000000</color>
+   
+    <item name="bright_foreground_holo_dark" type="color">@color/background_holo_light</item>
+    <item name="bright_foreground_holo_light" type="color">@color/background_holo_dark</item>
+
+    <item name="bright_foreground_inverse_holo_dark" type="color">@color/bright_foreground_holo_light</item>
+    <item name="bright_foreground_inverse_holo_light" type="color">@color/bright_foreground_holo_dark</item>
+
+    <color name="dim_foreground_holo_dark">#ffbebebe</color>
+    <color name="dim_foreground_inverse_holo_dark">#ff323232</color>
+    <color name="hint_foreground_holo_dark">#ff808080</color>
+    <color name="dim_foreground_holo_light">#ff323232</color>
+    <color name="dim_foreground_inverse_holo_light">#ffbebebe</color>
+    <color name="hint_foreground_holo_light">#ff808080</color>
+    <color name="highlighted_text_holo_dark">#667dafbd</color>
+    <color name="highlighted_text_holo_light">#667dafbd</color>
+    <color name="link_text_holo_dark">#ff5c5cff</color>
+    <color name="link_text_holo_light">#ff0000ee</color>
+
+<!-- Keyguard colors -->
+    <color name="custom_status_text_color">#ffffffff</color>
+    <color name="abs__background_holo_light">#ff000000</color>
+    <color name="com_whatsapp_black">#ffffffff</color>
+    <color name="com_whatsapp_dark_gray">#ffffffff</color>
+    
+    
+    
+     
+    
+    <item type="drawable" name="notification_item_background_color">#cc000000</item>
+     <item type="drawable" name="notification_item_background_color_pressed">#ff257390</item>
+    
+    
+    
+    
+    
+    
+</ChaOS_Theme_Values>
+

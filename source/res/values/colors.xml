@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="darker_gray">#ffaaaaaa</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="sblack">#ff34383c</color>
+    <color name="xblack">#ff373737</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent_white">#66ffffff</color>
+    <color name="clock_red">#ffff4444</color>
+    <color name="blackish">#ff1c1e20</color>
+    <color name="blackish_trans">#cc1c1e20</color>
+    <color name="background_dark">#ff000000</color>
+    <color name="background_light">#ffffffff</color>
+    <color name="holo_blue_light">#ff7dafbd</color>
+    <color name="holo_blue_dark">#ff7dafbd</color>
+    <color name="holo_green_light">#ff99cc00</color>
+    <color name="holo_green_dark">#ff669900</color>
+    <color name="holo_red_light">#ff7dafbd</color>
+    <color name="holo_red_dark">#ffcc0000</color>
+    <color name="holo_orange_light">#ffffbb33</color>
+    <color name="holo_orange_dark">#ffff8800</color>
+    <color name="holo_purple">#ffaa66cc</color>
+    <color name="holo_blue_bright">#ff00ddff</color>
+    <color name="holo_gray_dark">#ff030303</color>
+    <color name="holo_gray_bright">#ff555555</color>
+    <color name="holo_gray_brighter">#ffededed</color>
+    <color name="safe_mode_text">#80ffffff</color>
+    <color name="keyHintLetterColor">#ff7dafbd</color>
+    <color name="bg_pressed">#ff666666</color>
+    <color name="bg_focused">#ff888888</color>
+    <color name="background_primary">#ff3a3936</color>
+    <color name="account_container">#ff3a3936</color>
+    <color name="notification_list_shadow_top">#80000000</color>
+
+    <item name="bright_foreground_dark" type="color">@color/background_light</item>
+    <item name="bright_foreground_light" type="color">@color/background_dark</item>
+
+    <color name="bright_foreground_dark_disabled">#80ffffff</color>
+    <color name="bright_foreground_light_disabled">#80000000</color>
+
+    <item name="bright_foreground_dark_inverse" type="color">@color/bright_foreground_light</item>
+    <item name="bright_foreground_light_inverse" type="color">@color/bright_foreground_dark</item>
+
+    <color name="dim_foreground_dark">#ffbebebe</color>
+    <color name="dim_foreground_dark_disabled">#80bebebe</color>
+    <color name="dim_foreground_dark_inverse">#ff323232</color>
+    <color name="dim_foreground_dark_inverse_disabled">#80323232</color>
+    <color name="hint_foreground_dark">#ff808080</color>
+    <color name="dim_foreground_light">#ff323232</color>
+    <color name="dim_foreground_light_disabled">#80323232</color>
+    <color name="dim_foreground_light_inverse">#ffbebebe</color>
+    <color name="dim_foreground_light_inverse_disabled">#80bebebe</color>
+    <color name="hint_foreground_light">#ff808080</color>
+    <color name="highlighted_text_dark">#9983cc39</color>
+    <color name="highlighted_text_light">#9983cc39</color>
+    <color name="link_text_dark">#ff5c5cff</color>
+    <color name="link_text_light">#ff0000ee</color>
+    <color name="suggestion_highlight_text">#ff0094ff</color>
+    <color name="lighter_gray">#ffdddddd</color>
+    <color name="perms_dangerous_grp_color">#ff7dafbd</color>
+    <color name="perms_dangerous_perm_color">#ff7dafbd</color>
+    <color name="mentioned">#40000000</color>
+    <color name="shadow">#cc222222</color>
+    <color name="search_url_text_normal">#ff7fa87f</color>
+
+    <item name="search_url_text_selected" type="color">@color/black</item>
+    <item name="search_url_text_pressed" type="color">@color/black</item>
+    <item name="search_widget_corpus_item_background" type="color">@color/lighter_gray</item>
+    <item name="sliding_tab_text_color_active" type="color">@color/black</item>
+    <item name="sliding_tab_text_color_shadow" type="color">@color/black</item>
+
+    <color name="keyguard_text_color_normal">#ffffffff</color>
+    <color name="keyguard_text_color_unlock">#ffa7d84c</color>
+    <color name="keyguard_text_color_soundoff">#ffffffff</color>
+    <color name="keyguard_text_color_soundon">#ffe69310</color>
+    <color name="keyguard_text_color_decline">#fffe0a5a</color>
+    <color name="lockscreen_clock_background">#ffffffff</color>
+    <color name="lockscreen_clock_foreground">#ffffffff</color>
+    <color name="lockscreen_clock_am_pm">#ffffffff</color>
+    <color name="lockscreen_owner_info">#ff9a9a9a</color>
+    <color name="facelock_spotlight_mask">#cc000000</color>
+    <color name="background_holo_dark">#ff000000</color>
+    <color name="background_holo_light">#fff3f3f3</color>
+
+    <item name="bright_foreground_holo_dark" type="color">@color/background_holo_light</item>
+    <item name="bright_foreground_holo_light" type="color">@color/background_holo_dark</item>
+
+    <color name="bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
+    <color name="bright_foreground_disabled_holo_light">#ffb2b2b2</color>
+
+    <item name="bright_foreground_inverse_holo_dark" type="color">@color/bright_foreground_holo_light</item>
+    <item name="bright_foreground_inverse_holo_light" type="color">@color/bright_foreground_holo_dark</item>
+
+    <color name="dim_foreground_holo_dark">#ffbebebe</color>
+    <color name="dim_foreground_disabled_holo_dark">#80bebebe</color>
+    <color name="dim_foreground_inverse_holo_dark">#ff323232</color>
+    <color name="dim_foreground_inverse_disabled_holo_dark">#80323232</color>
+    <color name="hint_foreground_holo_dark">#ff808080</color>
+    <color name="dim_foreground_holo_light">#ff323232</color>
+    <color name="dim_foreground_disabled_holo_light">#80323232</color>
+    <color name="dim_foreground_inverse_holo_light">#ffbebebe</color>
+    <color name="dim_foreground_inverse_disabled_holo_light">#80bebebe</color>
+    <color name="hint_foreground_holo_light">#ff808080</color>
+    <color name="highlighted_text_holo_dark">#667dafbd</color>
+    <color name="highlighted_text_holo_light">#667dafbd</color>
+    <color name="link_text_holo_dark">#ff5c5cff</color>
+    <color name="link_text_holo_light">#ff0000ee</color>
+    <color name="group_button_dialog_pressed_holo_dark">#46c5c1ff</color>
+    <color name="group_button_dialog_focused_holo_dark">#2699cc00</color>
+    <color name="group_button_dialog_pressed_holo_light">#ffffffff</color>
+    <color name="group_button_dialog_focused_holo_light">#4699cc00</color>
+    <color name="legacy_pressed_highlight">#fffeaa0c</color>
+    <color name="legacy_selected_highlight">#fff17a0a</color>
+    <color name="legacy_long_pressed_highlight">#ffffffff</color>
+    <color name="config_defaultNotificationColor">#ffffffff</color>
+    <color name="com_android_vending_details_review_source_text">#ff7dafbd</color>
+    <color name="com_android_vending_white">#ff000000</color>
+    <color name="com_android_vending_black">#ffffffff</color>
+    <color name="com_android_vending_grey">#ff666666</color>
+    <color name="com_android_vending_darkgrey">#ff333333</color>
+    <color name="com_android_vending_disabled_black">#ff3f3f3f</color>
+    <color name="com_android_vending_disabled_grey">#ff2f2f2f</color>
+    <color name="com_android_vending_tos_text_color">#ff424242</color>
+    <color name="com_android_vending_account_selector_background">#ff282828</color>
+
+    <item name="com_android_vending_page_error_background" type="color">@color/com_android_vending_white</item>
+    <item name="com_android_vending_page_error_text_color" type="color">@color/com_android_vending_play_primary_text</item>
+
+    <color name="com_android_vending_title_background">#ffc2c2c2</color>
+    <color name="com_android_vending_translucent_dark_separator_line">#4cffffff</color>
+    <color name="com_android_vending_translucent_separator_line">#26ffffff</color>
+    <color name="com_android_vending_permissions_secondary_foreground">#ffbfbfbf</color>
+    <color name="com_android_vending_apps_primary">#ff7dafbd</color>
+    <color name="com_android_vending_multi_primary">#ff888888</color>
+    <color name="com_android_vending_apps_secondary">#cc7dafbd</color>
+    <color name="com_android_vending_multi_secondary">#ff999999</color>
+    <color name="com_android_vending_billing_form_background">#ff121212</color>
+    <color name="com_android_vending_corpus_selector_active">#ff7dafbd</color>
+    <color name="com_android_vending_setup_wizard_title_color">#ff7dafbd</color>
+    <color name="com_android_vending_song_highlighted_background">#ff7dafbd</color>
+    <color name="com_android_vending_review_histogram_bar">#ff414141</color>
+    <color name="com_android_vending_screenshot_edge_fade">#ff454545</color>
+    <color name="com_android_vending_season_switching_overlay">#ccededed</color>
+    <color name="com_android_vending_tipper_sticker_explicit">#ff7dafbd</color>
+    <color name="com_android_vending_tipper_sticker_edited">#ff555555</color>
+    <color name="com_android_vending_consumption_item_added">#ff7dafbd</color>
+    <color name="com_android_vending_package_malware_title_color">#ff7dafbd</color>
+    <color name="com_android_vending_play_fg_primary">#ff7dafbd</color>
+    <color name="com_android_vending_play_fg_secondary">#ff999999</color>
+    <color name="com_android_vending_play_fg_tertiary">#ff888888</color>
+    <color name="com_android_vending_play_fg_tabs">#ffcccccc</color>
+    <color name="com_android_vending_play_avatar_outline">#33ffffff</color>
+    <color name="com_android_vending_play_main_background">#ff000000</color>
+    <color name="com_android_vending_play_tab_strip_bottom">#26ffffff</color>
+    <color name="com_android_vending_play_tab_strip_side">#19ffffff</color>
+    <color name="com_android_vending_play_reason_separator">#19ffffff</color>
+    <color name="com_android_vending_play_dismissed_overlay">#c01a1a1a</color>
+    <color name="com_android_vending_play_banner_light_fg">#ff000000</color>
+    <color name="com_android_vending_play_banner_dark_fg">#ffcccccc</color>
+    <color name="com_android_vending_play_warm_welcome_text_box_bg">#e5000000</color>
+    <color name="com_android_vending_plus_audience_selection_highlight_color">#ff222222</color>
+    <color name="com_android_vending_plus_suggest_header_color">#ff222222</color>
+    <color name="com_android_vending_plus_people_suggest_title_divider">#ff2d2d2d</color>
+    <color name="com_android_vending_plus_people_suggest_title_divider_shadow">#ff434343</color>
+    <color name="com_android_vending_plus_audience_selection_item_background_hidden">#ff161616</color>
+    <color name="com_android_phone_incall_secondary_info_background">#80747474</color>
+    <color name="com_instagram_android_tmpblue">#ff7dafbd</color>
+    <color name="com_instagram_android_textview_location_foursquare">#ff7dafbd</color>
+    <color name="com_instagram_android_link_color">#ffcc5353</color>
+    <color name="com_instagram_android_text_shadow_blue_button">#ff7a3232</color>
+    <color name="com_instagram_android_follow_button_shadow_color_blue">#ff7a3232</color>
+    <color name="com_instagram_android_people_tagging_dialog_link_color">#ff7dafbd</color>
+    <color name="com_twitter_android_link_color">#ff7dafbd</color>
+    <color name="com_twitter_android_link_selected_color">#ffdda6a6</color>
+    <color name="com_twitter_android_at_sign">#ffdd8989</color>
+    <color name="com_twitter_android_bg_pressed">#ff7dafbd</color>
+    <color name="com_twitter_android_actionbar_pressed_bg">#ffaf4848</color>
+    <color name="com_twitter_android_pager_scroll_ba">#fff96666</color>
+    <color name="com_twitter_android_btn_active_default_fill">#ff7dafbd</color>
+    <color name="com_twitter_android_btn_active_default_stroke">#ffb74b4b</color>
+    <color name="com_twitter_android_btn_active_pressed_fill">#ffaf4848</color>
+    <color name="com_twitter_android_btn_active_pressed_stroke">#ff963d3d</color>
+    <color name="com_android_calendar_pressed">#330faeea</color>
+    <color name="com_android_calendar_selection">#ff0faeea</color>
+    <color name="com_android_calendar_today_highlight_color">#000faeea</color>
+    <color name="com_android_calendar_background_color">#ff000000</color>
+    <color name="com_android_calendar_event_background">#ff0faeea</color>
+    <color name="com_android_calendar_panel_text_foreground">#ffcccccc</color>
+    <color name="com_android_calendar_com_android_calendar_event_text_color">#ff888888</color>
+    <color name="com_android_calendar_com_android_calendar_owner_text_color">#ff999999</color>
+    <color name="com_android_calendar_com_android_calendar_date_range_color">#80999999</color>
+    <color name="com_android_calendar_week_saturday">#ff0faeea</color>
+    <color name="com_android_calendar_week_sunday">#ff0faeea</color>
+    <color name="com_android_calendar_com_android_calendar_future_bg_color">#ff000000</color>
+    <color name="com_android_calendar_com_android_calendar_hour_label">#ffcccccc</color>
+    <color name="com_android_calendar_com_android_calendar_ampm_label">#ff888888</color>
+    <color name="com_android_calendar_com_android_calendar_hour_background">#ff222222</color>
+    <color name="com_android_calendar_com_android_calendar_date_banner_background">#ff000000</color>
+    <color name="com_android_calendar_com_android_calendar_date_banner_text_color">#ffcccccc</color>
+    <color name="com_android_calendar_com_android_calendar_grid_area_selected">#e60faeea</color>
+    <color name="com_android_calendar_com_android_calendar_grid_line_inner_horizontal_color">#ff0faeea</color>
+    <color name="com_android_calendar_com_android_calendar_grid_line_inner_vertical_color">#ff0faeea</color>
+    <color name="com_android_calendar_com_android_calendar_grid_line_highlight_color">#ff707070</color>
+    <color name="com_android_calendar_mini_month_bg_color">#ff000000</color>
+    <color name="com_android_calendar_mini_month_today_outline_color">#ff0faeea</color>
+    <color name="com_android_calendar_month_day_number">#ffdddddd</color>
+    <color name="com_android_calendar_month_mini_day_number">#ffeeeeee</color>
+    <color name="com_android_calendar_month_day_number_other">#ffcccccc</color>
+    <color name="com_android_calendar_month_week_num_color">#ff999999</color>
+    <color name="com_android_calendar_month_day_names_color">#ffcccccc</color>
+    <color name="com_android_calendar_month_today_number">#ff0faeea</color>
+    <color name="com_android_calendar_month_event_color">#ff333333</color>
+    <color name="com_android_calendar_month_event_extra_color">#ffcccccc</color>
+    <color name="com_android_calendar_month_event_other_color">#ffcccccc</color>
+    <color name="com_android_calendar_month_event_extra_other_color">#4c999999</color>
+    <color name="com_android_calendar_month_saturday">#ff0faeea</color>
+    <color name="com_android_calendar_month_sunday">#ff0faeea</color>
+    <color name="com_android_calendar_month_grid_lines">#ff0faeea</color>
+    <color name="com_android_calendar_month_other_month_day_number">#ff999999</color>
+    <color name="com_android_calendar_month_other_bgcolor">#ff000000</color>
+    <color name="com_android_calendar_month_selected_week_bgcolor">#ff999999</color>
+    <color name="com_android_calendar_month_today_bgcolor">#ff333333</color>
+    <color name="com_android_calendar_month_bgcolor">#ff222222</color>
+    <color name="com_android_calendar_month_dna_conflict_time_color">#ff666666</color>
+    <color name="com_android_calendar_event_center">#ff6bd697</color>
+    <color name="com_android_calendar_edit_event_separator">#ff0faeea</color>
+    <color name="com_android_calendar_com_android_calendar_visible">#ffeeeeee</color>
+    <color name="com_android_calendar_com_android_calendar_hidden">#ff808080</color>
+    <color name="com_android_calendar_com_android_calendar_secondary_visible">#ff333333</color>
+    <color name="com_android_calendar_com_android_calendar_secondary_hidden">#ff808080</color>
+    <color name="com_android_calendar_agenda_item_not_selected">#00ffffff</color>
+    <color name="com_android_calendar_agenda_item_declined_color">#66eeeeee</color>
+    <color name="com_android_calendar_agenda_item_standard_color">#ffeeeeee</color>
+    <color name="com_android_calendar_agenda_day_bar_background_color">#ff000000</color>
+    <color name="com_android_calendar_agenda_past_days_bar_background_color">#ff000000</color>
+    <color name="com_android_calendar_agenda_past_present_separator_color">#ff0faeea</color>
+    <color name="com_android_calendar_agenda_general_background_color">#ff000000</color>
+    <color name="com_android_calendar_agenda_day_item_text_color">#ff0faeea</color>
+    <color name="com_android_calendar_agenda_item_where_text_color">#ffcccccc</color>
+    <color name="com_android_calendar_agenda_item_where_declined_text_color">#66cccccc</color>
+    <color name="com_android_calendar_com_android_calendar_view_switch_menu_text_color">#ff999999</color>
+    <color name="com_android_calendar_com_android_calendar_view_switch_menu_text_color_light">#ff888888</color>
+    <color name="com_android_calendar_agenda_list_separator_color">#ff333333</color>
+    <color name="com_android_calendar_agenda_selected_background_color">#ff0faeea</color>
+    <color name="com_android_calendar_agenda_selected_text_color">#ffcccccc</color>
+    <color name="com_android_calendar_new_event_hint_text_color">#ffcccccc</color>
+    <color name="com_android_calendar_day_event_clicked_background_color">#800faeea</color>
+    <color name="com_android_calendar_day_clicked_background_color">#ff0faeea</color>
+    <color name="com_android_calendar_day_past_background_color">#ff333333</color>
+    <color name="com_android_calendar_event_info_headline_color">#ffeeeeee</color>
+    <color name="com_android_calendar_event_info_headline_transparent_color">#b3999999</color>
+    <color name="com_android_calendar_event_info_headline_link_color">#ffcccccc</color>
+    <color name="com_android_calendar_event_info_organizer_color">#ffcccccc</color>
+    <color name="com_android_calendar_event_info_description_color">#ffcccccc</color>
+    <color name="com_android_calendar_event_info_body_color">#ff222222</color>
+    <color name="com_android_calendar_event_info_label_color">#ff666666</color>
+    <color name="com_android_calendar_event_info_label_background_color">#ff222222</color>
+    <color name="com_android_calendar_text_shadow_color">#4d000000</color>
+    <color name="com_android_calendar_alert_event_title">#ffcccccc</color>
+    <color name="com_android_calendar_alert_event_other">#ff999999</color>
+    <color name="com_android_calendar_alert_past_event">#8f999999</color>
+    <color name="com_android_calendar_appwidget_row_in_progress">#660faeea</color>
+    <color name="com_android_calendar_appwidget_date">#ff0faeea</color>
+    <color name="com_android_calendar_appwidget_week">#ee0faeea</color>
+    <color name="com_android_calendar_appwidget_month">#ff0faeea</color>
+    <color name="com_android_calendar_appwidget_item_declined_color">#66eeeeee</color>
+    <color name="com_android_calendar_appwidget_item_standard_color">#ffeeeeee</color>
+    <color name="com_android_calendar_appwidget_item_allday_color">#ff0faeea</color>
+    <color name="com_android_calendar_appwidget_title">#ffffffff</color>
+    <color name="com_android_calendar_appwidget_when">#ffffffff</color>
+    <color name="com_android_calendar_appwidget_where">#ffffffff</color>
+    <color name="com_android_calendar_appwidget_no_events">#ffffffff</color>
+
+    <item name="com_google_android_gm_mail_app_blue" type="color">@color/com_google_android_gm_holo_blue_light</item>
+
+    <color name="com_google_android_gm_holo_blue_light">#ff7dafbd</color>
+
+    <item name="com_google_android_gm_default_folder_foreground_color" type="color">@color/com_google_android_gm_gray_text_color</item>
+    <item name="com_google_android_gm_account_item_selected_text_color" type="color">@color/com_google_android_gm_mail_app_blue</item>
+    <item name="com_google_android_gm_folder_list_divider_color" type="color">@color/com_google_android_gm_gray_text_color</item>
+
+    <color name="com_google_android_gm_swipe_to_refresh_text_color">#ff7dafbd</color>
+    <color name="com_google_android_gm_dark_gray_text_color">#ffaaaaaa</color>
+    <color name="com_google_android_gm_solid_black">#ffaaaaaa</color>
+    <color name="com_google_android_gm_photo_crop_dim_color">#ccffffff</color>
+    <color name="com_google_android_gm_photo_crop_highlight_color">#ff000000</color>
+    <color name="com_google_android_gm_gray_text_color">#ffaaaaaa</color>
+    <color name="com_google_android_gm_default_text_color">#ffffffff</color>
+
+    <item name="com_google_android_gm_subject_text_color_unread" type="color">@color/com_google_android_gm_dark_gray_text_color</item>
+
+    <color name="com_google_android_gm_snippet_text_color_unread">#ff777777</color>
+
+    <item name="com_google_android_gm_senders_text_color_unread" type="color">@color/com_google_android_gm_dark_gray_text_color</item>
+    <item name="com_google_android_gm_subject_text_color_read" type="color">@color/com_google_android_gm_subject_text_color_unread</item>
+    <item name="com_google_android_gm_snippet_text_color_read" type="color">@color/com_google_android_gm_snippet_text_color_unread</item>
+    <item name="com_google_android_gm_senders_text_color_read" type="color">@color/com_google_android_gm_senders_text_color_unread</item>
+    <item name="com_google_android_gm_date_text_color" type="color">@color/com_google_android_gm_dark_gray_text_color</item>
+    <item name="com_google_android_gm_folder_list_heading_text_color" type="color">@color/com_google_android_gm_gray_text_color</item>
+
+    <color name="com_google_android_gm_subject_text_color">#ffcccccc</color>
+    <color name="com_google_android_gm_faded_conversation_header">#7fddb5b5</color>
+    <color name="com_google_android_gm_faded_activated_conversation_header">#7fc19999</color>
+    <color name="com_google_android_gm_drafts">#ff990000</color>
+    <color name="com_google_android_gm_light_text_color">#ff999999</color>
+    <color name="com_google_android_gm_default_folder_background_color">#ff000000</color>
+    <color name="com_google_android_gm_conversation_list_background_color">#ff000000</color>
+    <color name="com_google_android_gm_folder_list_background_color">#ff000000</color>
+    <color name="com_google_android_gm_attachment_bg_color">#ff222222</color>
+    <color name="com_google_android_gm_swiped_bg_color">#ff444444</color>
+    <color name="com_google_android_gm_compose_label_text">#ffcccccc</color>
+
+    <item name="com_google_android_gm_quoted_text_color" type="color">@color/com_google_android_gm_gray_text_color</item>
+    <item name="com_google_android_gm_compose_background_color" type="color">@*android:color/black</item>
+
+    <color name="com_google_android_gm_compose_attachment_title_background_color">#ff333333</color>
+
+    <item name="com_google_android_gm_conv_header_add_label_text" type="color">@*android:color/white</item>
+
+    <color name="com_google_android_gm_conv_header_add_label_background">#ff111111</color>
+    <color name="com_google_android_gm_conv_subject_border">#ff303030</color>
+
+    <item name="com_google_android_gm_conv_header_text_light" type="color">@color/com_google_android_gm_gray_text_color</item>
+    <item name="mail_position_bar_background" type="color">@color/com_google_android_gm_gray_text_color</item>
+
+    <color name="message_recieved">#ff7dafbd</color>
+    <color name="message_sent">#ff303030</color>
+    <color name="con_quickcontact_list_background">#ff000000</color>
+    <color name="com_android_mms_white">#ffffffff</color>
+    <color name="com_android_mms_black">#ff000000</color>
+    <color name="com_android_mms_text_hairline">#ffffffff</color>
+    <color name="com_android_mms_message_count_color">#66cfcfcf</color>
+    <color name="com_android_mms_timestamp_color">#ffffffff</color>
+    <color name="com_android_mms_unread_bgcolor">#ff993e3e</color>
+    <color name="com_android_mms_read_bgcolor">#ff373737</color>
+    <color name="com_android_mms_widget_sender_text_color_read">#ff000000</color>
+    <color name="com_android_mms_widget_sender_text_color_unread">#ff7dafbd</color>
+    <color name="com_android_mms_widget_subject_text_color_read">#ff000000</color>
+    <color name="com_android_mms_widget_subject_text_color_unread">#ff7dafbd</color>
+    <color name="com_android_mms_action_bar_button_text_color">#ffffffff</color>
+    <color name="com_android_mms_compose_message_edit_text">#ffffffff</color>
+    <color name="com_android_mms_actionbar_text">#ffffffff</color>
+    <color name="com_android_mms_delete_thread_dialog">#ffffffff</color>
+    <color name="com_android_mms_delivery_report_header">#ffffffff</color>
+    <color name="com_android_mms_delivery_report_recipient">#ffffffff</color>
+    <color name="com_android_mms_delivery_report_status">#ffffffff</color>
+    <color name="com_android_mms_delivery_report_date">#ffffffff</color>
+    <color name="com_android_mms_button_text">#ffffffff</color>
+    <color name="com_android_mms_message_recieved">#ffffffff</color>
+    <color name="com_android_mms_message_received">#ffffffff</color>
+    <color name="com_android_mms_message_sent">#ffffffff</color>
+    <color name="com_android_mms_widget_unread_text">#ffffffff</color>
+    <color name="com_android_mms_widget_loading">#ff000000</color>
+    <color name="com_android_mms_background">#ff373737</color>
+    <color name="com_android_mms_darkgray_backgrounds">#ff000000</color>
+    <color name="com_android_mms_dividers">#ff000000</color>
+    <color name="com_android_mms_transparent">#00000000</color>
+    <color name="com_android_mms_quickmessage_body_dark_bg">#ff000000</color>
+    <color name="com_android_mms_quickmessage_body_light_bg">#fff3f3f3</color>
+    <color name="com_android_mms_compose_message_text_counter">#ffffffff</color>
+    <color name="com_whatsapp_green">#ff4169e1</color>
+    <color name="con_quickcontact_list_divider">#ffffffff</color>
+    <color name="con_white_text">#ffffffff</color>
+    <color name="con_quickcontact_tab_indicator">#ffffffff</color>
+    <color name="con_people_app_theme_color">#ffffffff</color>
+    <color name="com_google_android_gm_folder_disabled_drop_target_text_color">#ffcccccc</color>
+    <color name="com_google_android_gm_attachment_tile_shadow_box_color">#7fffffff</color>
+    <color name="com_google_android_gm_attachment_tile_subtitle_color">#ffcccccc</color>
+    <color name="com_google_android_gm_attachment_image_background_color">#ff353535</color>
+
+    <item name="com_google_android_gm_hierarchical_folder_parent_color" type="color">@color/com_google_android_gm_gray_text_color</item>
+
+    <color name="com_google_android_gm_high_spam_color">#ffcc0000</color>
+    <color name="com_google_android_gm_leaveBehindBackground">#ffaaa9aa</color>
+    <color name="com_google_android_gm_animating_item_background_color">#7f7dafbd</color>
+    <color name="com_google_android_gm_quoted_text">#ff999999</color>
+    <color name="com_google_android_gm_unread_conversation_subject_text">#ffcccccc</color>
+    <color name="com_google_android_gm_label_disabled_drop_target_text_color">#ffcccccc</color>
+    <color name="com_google_android_gm_widget_label_shadow_color">#fffdfdfd</color>
+    <color name="com_google_android_gm_widget_account_color">#c0000000</color>
+    <color name="com_google_android_gm_widget_unread_count_color">#c07dafbd</color>
+    <color name="com_google_android_gm_accountInfoColor">#ffcccccc</color>
+    <color name="com_google_android_gm_white">#ff666666</color>
+    <color name="com_google_android_gm_fadedConversationHeader">#7f7dafbd</color>
+    <color name="com_google_android_gm_fadedActivatedConversationHeader">#7f7dafbd</color>
+    <color name="com_google_android_gm_fadedWebView">#7f000000</color>
+    <color name="com_google_android_gm_quotedTextColor">#ff999999</color>
+    <color name="com_google_android_solid_black">#ffffffff</color>
+    <color name="com_google_android_photo_crop_dim_color">#ccffffff</color>
+    <color name="com_google_android_photo_crop_highlight_color">#ff000000</color>
+    <color name="com_google_android_new_source_label_suffix">#ff7dafbd</color>
+
+    <item name="com_google_android_primary_text_normal" type="color">@*android:color/black</item>
+
+    <color name="com_google_android_primary_text_disabled">#66000000</color>
+
+    <item name="com_google_android_primary_text_inverse" type="color">@*android:color/white</item>
+
+    <color name="com_google_android_primary_text_inverse_disabled">#ffaaaaaa</color>
+    <color name="com_google_android_secondary_text_normal">#ffaaaaaa</color>
+    <color name="com_google_android_secondary_text_disabled">#80aaaaaa</color>
+    <color name="com_google_android_secondary_text_inverse">#ff7dafbd</color>
+    <color name="com_google_android_nav_suggest">#ff40b367</color>
+    <color name="com_google_android_nav_suggest_disabled">#6640b367</color>
+    <color name="com_google_android_nav_suggest_text_inverse">#ff7dafbd</color>
+    <color name="com_google_android_suggest_text_normal">#ffbbbbbb</color>
+    <color name="com_google_android_suggest_text_disabled">#80bbbbbb</color>
+    <color name="com_google_android_suggest_text_inverse">#ff7dafbd</color>
+    <color name="com_google_android_suggest_footer_primary_text_normal">#ff7dafbd</color>
+    <color name="com_google_android_suggest_footer_primary_text_inverse">#ff7dafbd</color>
+    <color name="com_google_android_suggest_footer_secondary_text_normal">#ff999999</color>
+    <color name="com_google_android_suggest_footer_secondary_text_inverse">#ff7dafbd</color>
+    <color name="com_google_android_suggest_header_primary_text_normal">#ffffffff</color>
+    <color name="com_google_android_suggest_secondary_text_normal">#ff999999</color>
+    <color name="com_google_android_suggest_icon_background">#ff111111</color>
+    <color name="com_google_android_suggest_icon_background_semi_transparent">#f2000000</color>
+    <color name="com_google_android_kennedy_red">#ffdd4b39</color>
+    <color name="com_google_android_horizontal_bar_separator">#ff222222</color>
+    <color name="com_google_android_activity_background">#ff34383c</color>
+    <color name="com_google_android_fade_out_weak">#d8111111</color>
+    <color name="com_google_android_bg_button_pressed">#aa7dafbd</color>
+    <color name="com_google_android_webview_highlight">#607dafbd</color>
+    <color name="com_google_android_suggestion_divider_background">#ff222222</color>
+    <color name="com_google_android_suggestion_header_divider_background">#ffaaaaaa</color>
+    <color name="com_google_android_first_run_text_shadow">#ff222222</color>
+    <color name="com_google_android_ime_state_text">#ff000000</color>
+    <color name="com_google_android_ime_spinner_text">#ff999999</color>
+    <color name="com_google_android_ime_mic_levels">#ffbbbbbb</color>
+    <color name="com_google_android_attribution_text">#ff111111</color>
+    <color name="com_google_android_card_text">#ffcccccc</color>
+    <color name="com_google_android_card_title_text">#ffffffff</color>
+    <color name="com_google_android_card_light_text">#ffbbbbbb</color>
+    <color name="com_google_android_card_grid_text">#ff999999</color>
+    <color name="com_google_android_card_separator">#ff111111</color>
+    <color name="com_google_android_card_border">#ff222222</color>
+    <color name="com_google_android_load_more_button_border">#ff222222</color>
+    <color name="com_google_android_load_more_button_text">#ff999999</color>
+    <color name="com_google_android_load_more_button_text_pressed">#ff7dafbd</color>
+    <color name="com_google_android_stock_disclaimer">#ffcccccc</color>
+    <color name="com_google_android_grid_header_background">#ff111111</color>
+    <color name="com_google_android_com_google_android_gm_card_buttons_text">#ff35b5e5</color>
+    <color name="com_google_android_image_pressed_highlight">#4433b5e3</color>
+    <color name="com_google_android_white">#ff000000</color>
+    <color name="com_google_android_black">#ffffffff</color>
+    <color name="com_google_android_light_gray">#ff555555</color>
+    <color name="com_google_android_gray">#ff777777</color>
+    <color name="com_google_android_medium_gray">#ff999999</color>
+    <color name="com_google_android_dark_gray">#ffbbbbbb</color>
+    <color name="com_google_android_translucent_black">#ffaaaaaa</color>
+    <color name="com_google_android_near_transparent_black">#ffaaaaaa</color>
+    <color name="com_google_android_correctable_highlight_color">#ff7dafbd</color>
+    <color name="com_google_android_selection_highlight_color">#ff7dafbd</color>
+    <color name="com_google_android_editor_grayed_out_text">#ffa0a0a0</color>
+    <color name="com_google_android_disambig_item_text">#ffffffff</color>
+    <color name="com_google_android_disambig_item_subtext">#ff999999</color>
+    <color name="com_google_android_count_down">#ff7dafbd</color>
+    <color name="com_google_android_ice_cream_blue">#ff7dafbd</color>
+    <color name="com_google_android_local_results_red">#ffe73030</color>
+    <color name="com_google_android_divider_working">#ff7dafbd</color>
+    <color name="com_google_android_divider_general">#ff000000</color>
+    <color name="com_google_android_fragment_bg">#ffdddddd</color>
+    <color name="com_google_android_search_plate_text_color">#ff999999</color>
+    <color name="com_google_android_search_plate_hint_text_color">#ff555555</color>
+
+    <item name="com_google_android_voice_text_color" type="color">@color/com_google_android_ice_cream_blue</item>
+
+    <color name="com_google_android_voice_background_color">#ff000000</color>
+
+    <item name="com_google_android_voice_foreground" type="color">@color/com_google_android_ice_cream_blue</item>
+
+    <color name="com_google_android_speak_com_google_android_bg">#ff111111</color>
+    <color name="talk_black_60">#60000000</color>
+    <color name="talk_black_40">#40000000</color>
+    <color name="talk_black_30">#30000000</color>
+    <color name="custom_status_text_color">#ffffffff</color>
+    <color name="com_twitter_android_pager_scroll_bar">#ff7dafbd</color>
+    <color name="abs__background_holo_light">#ff000000</color>
+    <color name="com_whatsapp_black">#ffffffff</color>
+    <color name="com_whatsapp_dark_gray">#ffffffff</color>
+
+</resources>

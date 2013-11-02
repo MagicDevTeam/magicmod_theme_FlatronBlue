@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resource-redirections>
+    <item name="mipmap/ic_navigation">@mipmap/ic_navigation</item>
+    <item name="mipmap/latitude_icon">@mipmap/latitude_icon</item>
+    <item name="mipmap/places_icon">@mipmap/places_icon</item>
+    <item name="mipmap/ic_launcher_maps">@mipmap/ic_launcher_maps</item>
+</resource-redirections>

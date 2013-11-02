@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FlatronBlue</string>
+    <string name="theme_name_FlatronBlue">FlatronBlue</string>
+    <string name="style_appearance_name">FlatronBlue</string>
+    <string name="author">vicino</string>
+    <string name="copyright">vicino</string>
+</resources>

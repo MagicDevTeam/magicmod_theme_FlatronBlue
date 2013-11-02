@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="notification_number_text_color">#ffffffff</item>
+    <item type="drawable" name="notification_item_background_color">#cc000000</item>
+    <item type="drawable" name="notification_item_background_color_pressed">#ffbe0000</item>
+    <item type="drawable" name="ticker_background_color">#ff1d1d1d</item>
+    <item type="drawable" name="status_bar_background">@drawable/frameworks_res_statusbar_background</item>
+    <item type="drawable" name="status_bar_recents_background_solid">#b3000000</item>
+    <item type="drawable" name="status_bar_recents_app_thumbnail_background">#88400000</item>
+    <item type="drawable" name="status_bar_notification_row_background_color">#cc000000</item>
+    <item type="drawable" name="notification_header_bg">#cc000000</item>
+    <item type="drawable" name="notification_tracking_bg">#d8400000</item>
+    <item type="drawable" name="recents_callout_line">#99ff0000</item>
+    <item type="drawable" name="notification_item_background_legacy_color">#ffaaaaaa</item>
+    <item type="drawable" name="nav_bar_bg">#cc000000</item>
+    <item type="drawable" name="notification_drawable_background_legacy_color">#ff555555</item>
+    <item type="drawable" name="notification_icon_area_smoke">#aa000000</item>
+    <item type="drawable" name="class_zero_background">#7f000000</item>
+    <item type="drawable" name="text_color_red">#ffff4444</item>
+    <item type="drawable" name="text_color_black">#ff000000</item>
+    <item type="drawable" name="empty">#00000000</item>
+    <item type="drawable" name="com_google_android_selection_highlight_color">@color/com_google_android_selection_highlight_color</item>
+    <item type="drawable" name="com_google_android_selection_highlight_light">#bb3388ff</item>
+    <item type="drawable" name="com_google_android_selection_highlight_dark">#bb3388ff</item>
+    <item type="drawable" name="com_google_android_selection_dark_background">@drawable/background</item>
+    <item type="drawable" name="com_google_android_empty">#00000000</item>
+</resources>
